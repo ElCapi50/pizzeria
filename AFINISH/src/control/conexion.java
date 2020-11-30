@@ -29,7 +29,6 @@ public class conexion {
         return link;
     } 
     
-    
     public int inicioConexion(int ID) {
         
         Date currentDate = new Date();

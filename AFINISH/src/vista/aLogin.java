@@ -75,7 +75,7 @@ public class aLogin extends javax.swing.JFrame {
             
         } else {
             usuario u = new usuario(bgN, bgNT, contra);
-            if ( u.rol == 3 ) {
+            if ( u.rol == 4 ) {
                 this.dispose();
                 aAdmin a = new aAdmin();
                 a.setVisible(true);
